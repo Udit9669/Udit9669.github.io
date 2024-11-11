@@ -1,0 +1,7 @@
+html, body, pre, code, kbd, samp {
+    font-family: "Press Start 2P", sans-serif;
+}
+
+header.sticky {
+    border-bottom: 5px solid #D3D3D3;
+}
