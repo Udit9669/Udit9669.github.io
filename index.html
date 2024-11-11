@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>
+<div id="nescss">
     <header class="sticky">
-        <div class="container d-flex justify-content-between align-items-center py-2">
+        <div class="container d-flex justify-content-between align-items-center py-2 flex-wrap">
             <!-- Left side: Logo and Name -->
             <div class="nav-brand d-flex align-items-center">
-                <div class="col-auto pe-4">
+                <div class="col-auto pe-2">
                     <i class="nes-ash"></i>
                 </div>
                 <div class="col-auto">
@@ -22,24 +22,58 @@
                 </div>
             </div>
 
-            <!-- Right side: Social Button -->
-            <div class="social-button ">
-                <a href="https://www.instagram.com/singhudit.kr/">
+            <!-- Right side: Social Icons -->
+            <div class="social-button d-flex align-items-center mt-2 mt-md-0">
+                <a href="https://www.instagram.com/singhudit.kr/" class="me-2">
                     <i class="nes-icon instagram is-medium"></i>
                 </a>
-                <!-- LinkedIn -->
-                <a href="https://www.linkedin.com/in/udit9669/" class="mx-2">
+                <a href="https://www.linkedin.com/in/udit9669/" class="me-2">
                     <i class="nes-icon linkedin is-medium"></i>
                 </a>
-                <a href="https://github.com/Udit9669" class="mx-2">
+                <a href="https://github.com/Udit9669">
                     <i class="nes-icon github is-medium"></i>
                 </a>
             </div>
-
         </div>
     </header>
 </div>
-</body>
+<!--<button  class="nes-btn is-primary m-2"></button>-->
+<section >
+    <div class="row align-items-center ms-3 mt-3">
+        <!-- Left Column: Toggle Button -->
+        <div class="col-auto">
+            <label class="switch">
+                <input id="dark-mode-toggle" type="checkbox" class="toggle">
+                <span class="slider"></span>
+                <span class="card-side"></span>
+            </label>
+        </div>
 
-<!--comnmnect-->
+        <!-- Center Column: About Me! Title -->
+        <div class="col text-center">
+            <p class="title">About Me!</p>
+        </div>
+    </div>
+
+    <div class="nes-container with-title is-centered mx-4 mb-4">
+        <div class ='row'>
+            <div class="col">
+                <img src="file/Untitled%20design.png" alt>
+            </div>
+            <div class="col nes-container is-rounded">
+                <p>Hello, I'm <span class=" nes-text is-primary"> Udit Kumar Singh</span>, a 20-year-old programmer, gamer, and fitness enthusiast.<br>
+                    I'm pursuing a BS in Data Science and Applications, passionate about solving problems with code and exploring data science.</p>
+
+                <p>With a solid foundation in programming, I'm excited to dive deeper into data-driven projects and full stack development. <br>
+                    My goal is to continually challenge myself, build impactful applications, and grow as a tech professional. <br>
+                    In my free time, you'll find me either gaming, hitting the gym, or learning something new in tech.</p>
+
+                <p>Happy coding and learning!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="animation.js"></script>
+</body>
 </html>
